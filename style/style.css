@@ -113,6 +113,7 @@ body.dark-mode {
 }
 
 .content p {
+    color: var(--textWhite);
     display: flex;
     text-align: justify;
     margin-left: 5%;
@@ -144,12 +145,10 @@ body.dark-mode {
     width: 100vw;
     display: flex;
     color: white;
-    text-shadow: black 0.1em 0.1em 0.2em;
     font-size: 18px;
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-image: url('images/back01.jpg');
     background-size: cover;
     background-position: center;  
     background-repeat: no-repeat;
