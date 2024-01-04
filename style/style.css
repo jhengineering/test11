@@ -144,7 +144,6 @@ body.dark-mode {
     height: 80vh; 
     width: 100vw;
     display: flex;
-    color: white;
     font-size: 18px;
     text-align: center;
     align-items: center;
