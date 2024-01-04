@@ -204,3 +204,51 @@ body.dark-mode {
     font-weight: 700;
 }
 }
+
+/*iphone SE */
+@media only screen and (max-width: 360px) {
+
+    .logo {
+        margin-top: 30%;
+        margin-left: 2%;
+        font-size: 15px;
+     }
+
+#icon {
+    display: flex;
+    position: absolute;
+    margin-top: -8%;
+    margin-left: 80%;
+    height: 28px;
+ }
+    
+.text h4 {
+   margin-top: 10em;
+    display: flex;
+    margin-left: 3%;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.text h2 {
+    display: flex;
+    margin-left: 3%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0275d8;
+}
+
+.text span {
+    display: flex;
+    margin-left: 3%;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.content p {
+    display: flex;
+    text-align: justify;
+    font-size: 14px;
+        
+}
+}
