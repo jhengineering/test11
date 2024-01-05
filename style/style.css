@@ -138,7 +138,21 @@ body.dark-mode {
     color: #0275d8;
     transform: translateY(-5px);
 }
-
+/*img back */
+.img_back {
+    position: relative;
+  }
+  
+  #img_back {
+    z-index: -1;
+  }
+  
+  #back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
 
 @media only screen and (max-width: 600px) {
 
