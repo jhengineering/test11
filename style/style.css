@@ -162,7 +162,12 @@ body.dark-mode {
    margin-left: 55%;
    font-size: 15px;
 }
-
+    
+.img_back img {
+    width: 100%;
+    height: auto;
+  }
+    
 #icon {
    margin-top: 1%;
    margin-left: 32%;
@@ -215,6 +220,11 @@ body.dark-mode {
         margin-left: 2%;
         font-size: 15px;
      }
+
+    .img_back img {
+    width: 100%;
+    height: auto;
+  }
 
 #icon {
     display: flex;
