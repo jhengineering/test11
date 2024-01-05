@@ -19,6 +19,7 @@ html {
     width: 100%;
     overflow: hidden;
 }
+
 .logo {
     margin-top: 0.1%;
     margin-left: 2%;
@@ -31,32 +32,32 @@ html {
 
 .logo span {
     text-decoration: none;
-    color: #0275d8;
+    color: #9ACD32;
 }
 
-/*.dark and light*/
+/*.dark and light and icon*/
 body.dark-mode {
     background-color: black;
     color: white;
-  }
+}
 
-.dark-theme{
+.dark-theme {
     background-color: black;
-    color:#fff;
+    color: #fff;
 }
 
 #icon {
-    top: 20%;
     margin-right: 2%;
     height: 25px;
-    cursor:pointer;
-    
+    cursor: pointer;
+
 }
 
+/*only nav*/
 .nav-links {
     flex: 1;
     text-align: right;
-  }
+}
 
 #nav-links {
     display: flex;
@@ -73,8 +74,8 @@ body.dark-mode {
 
 .nav-links li a {
     color: grey;
-    filter: invert(1); 
-    mix-blend-mode: difference; 
+    filter: invert(1);
+    mix-blend-mode: difference;
     text-decoration: none;
     font-size: 20px;
     position: relative;
@@ -90,26 +91,70 @@ body.dark-mode {
     bottom: -6px;
 }
 
-.text h4 {
-    display: flex;
-    margin-left: 3%;
-    font-size: 30px;
-    font-weight: 700;
+/*cen text*/
+#cen-text span {
+    color: #9ACD32;
 }
 
-.text h2 {
+/*efect cen text importatn*/
+#cen-text {
     display: flex;
-    margin-left: 3%;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
     font-size: 40px;
-    font-weight: 700;
-    color: #0275d8;
+    height: 80vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    font-weight: bold;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 400px;
 }
 
-.text span {
+.img_back {
+    position: absolute;
     display: flex;
-    margin-left: 3%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.img_back img {
+    position: absolute;
+    display: flex;
+    margin-top: -12%;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*important this is back to image background */
+.img_back {
+    margin-top: 3%;
+    position: relative;
+}
+
+#img_back {
+    z-index: -1;
+}
+
+/*about*/
+.about {
+    margin-top: -9%;
+
+}
+
+.about h4 {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: bold;
+    color: #9ACD32;
+    padding: 2%;
 }
 
 .content p {
@@ -120,153 +165,234 @@ body.dark-mode {
     margin-right: 5%;
 }
 
-.social {
-    display: flex;
-    margin-top: 30px;
+/*contact*/
+.contact-left .sub-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #9ACD32;
+    padding: 2%;
 }
 
-.social a {
+/*email and phone square*/
+.contact-right {
+    flex-basis: 60%;
+}
+
+/*c_email and phone*/
+.contact-left p {
+    margin-top: 30px;
+
+}
+
+/*F_email and phone*/
+.contact-left p i {
+    color: #008080;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+/*Social icons margin*/
+.social-icons {
+    margin-top: 20px;
+    padding: 2%;
+}
+
+/*Social icons*/
+.social-icons a {
+    display: flex;
     text-decoration: none;
     font-size: 30px;
+    margin-right: 15px;
     color: #ababab;
     display: inline-block;
     transition: transform 0.5s;
-    margin-left: 30px;
 }
 
-.social a:hover{
-    color: #0275d8;
+.social-icons a:hover {
+    color: #008080;
     transform: translateY(-5px);
 }
 
-/*img back */
-.img_back {
-    margin-top: 3%;
-    position: relative;
-  }
-  
-  #img_back {
-    z-index: -1;
-  }
-  
-  #back {
+/*arrowup */
+.footer-icon-top {
+    display: flex;
+    height: 20px;
+    cursor: pointer;
     position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    margin-top: 3%;
-    color: white;
-    text-shadow: black 0.1em 0.1em 0.2em;
-    font-weight: bold;
-    font-size: 18px;
-  }
+    right: 1.7cm;
+    bottom: -33em;
+    margin-right: 10%;
+}
 
+.footer-icon-top a i {
+    display: flex;
+    color: #008080;
+    font-size: 25px;
+}
+
+/*cop*/
+.copyright {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: -3em;
+}
+
+/*color icon dev copyright*/
+.copyright i {
+    color: #008080;
+}
+
+/*thanks*/
+#thanks {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    bottom: 20em;
+    margin-left: 45%;
+    font-size: 12px;
+}
+
+#thanks a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #008080;
+    filter: invert(-1);
+    mix-blend-mode: difference;
+}
+
+/*media*/
 @media only screen and (max-width: 600px) {
 
-.logo {
-   margin-top: 16%;
-   margin-left: 55%;
-   font-size: 15px;
-}
-    
-.img_back img {
-    width: 100%;
-    height: auto;
-  }
-    
-#icon {
-   margin-top: 1%;
-   margin-left: 32%;
-   height: 25px;
-   cursor:pointer;
-}
+    .img_back img {
+        position: absolute;
+        display: flex;
+        margin-top: -45em;
+        width: 100%;
+        height: auto;
+    }
 
-.nav-links {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
+    #cen-text {
+        margin-top: -18em;
+        margin-left: 80px;
+        font-size: 15px;
 
-
-.content p {
-    display: flex;
-    text-align: justify;
-    font-size: 10px;
-        
-}
-    
-.text h4 {
-    display: flex;
-    margin-left: 3%;
-    font-size: 10px;
-    font-weight: 700;
-}
-
-.text h2 {
-    display: flex;
-    margin-left: 3%;
-    font-size: 15px;
-    font-weight: 700;
-    color: #0275d8;
-}
-
-.text span {
-    display: flex;
-    margin-left: 3%;
-    font-size: 10px;
-    font-weight: 700;
-}
-}
-
-/*Mobile HonX9 */
-@media only screen and (max-width: 360px) {
+    }
 
     .logo {
-        margin-top: 30%;
-        margin-left: 2%;
+        margin-top: 16%;
+        margin-left: 55%;
         font-size: 15px;
-     }
+    }
 
-    .img_back img {
-    width: 100%;
-    height: auto;
-  }
+    #icon {
+        margin-top: 1%;
+        margin-left: 32%;
+        height: 25px;
+        cursor: pointer;
+    }
 
-#icon {
-    display: flex;
-    position: absolute;
-    margin-top: -8%;
-    margin-left: 80%;
-    height: 28px;
- }
-    
-.text h4 {
-   margin-top: 18em;
-    display: flex;
-    margin-left: 3%;
-    font-size: 15px;
-    font-weight: 700;
+    .nav-links {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .about h4 {
+        margin-top: -35em;
+        display: flex;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .content p {
+        display: flex;
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    /*arrowup */
+    .footer-icon-top {
+        display: flex;
+        height: 20px;
+        cursor: pointer;
+        position: absolute;
+        right: 1.7cm;
+        bottom: -10em;
+        margin-right: 5%;
+    }
+
+    /*thanks*/
+    #thanks {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        bottom: 10em;
+        margin-left: 30%;
+        font-size: 12px;
+    }
+
 }
 
-.text h2 {
-    display: flex;
-    margin-left: 3%;
-    font-size: 20px;
-    font-weight: 700;
-    color: #0275d8;
-}
+/*Hon X9 and OS SE */
+@media only screen and (max-width: 360px) {
 
-.text span {
-    display: flex;
-    margin-left: 3%;
-    font-size: 12px;
-    font-weight: 700;
-}
 
-.content p {
-    display: flex;
-    text-align: justify;
-    font-size: 14px;
-        
-}
+    .logo {
+        margin-top: 18%;
+        margin-left: 63%;
+        font-size: 15px;
+    }
+
+    #icon {
+        margin-top: 1%;
+        margin-left: 80%;
+        height: 25px;
+        cursor: pointer;
+    }
+
+    .about h4 {
+        margin-top: -37em;
+        display: flex;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .content p {
+        display: flex;
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    /*arrowup */
+    .footer-icon-top {
+        display: flex;
+        height: 20px;
+        cursor: pointer;
+        position: absolute;
+        right: 1.7cm;
+        bottom: -13em;
+        margin-right: 5%;
+    }
+
+    /*thanks*/
+    #thanks {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        bottom: 10em;
+        margin-left: 30%;
+        font-size: 12px;
+    }
+
 }
