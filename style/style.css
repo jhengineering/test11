@@ -139,9 +139,6 @@ body.dark-mode {
     transform: translateY(-5px);
 }
 
-#back {
-    background-image: url('images/bgpd_000.jpg');
- }
 
 @media only screen and (max-width: 600px) {
 
