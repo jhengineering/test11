@@ -16,7 +16,7 @@
 <body>
 
     <!--Firt name (hero) then (hero white mode) for chance color in main.js-->
-    <section class="hero-navs">
+    <section class="hero-navs" id="header">
         <header>
             <nav>
                 <a href="#" class="logo"><span>JH</span> Engineering</a>
@@ -26,63 +26,80 @@
                     <li><a href="#services" onclick="selectOption()">Services</a></li>
                     <li><a href="#values" onclick="selectOption()">Values</a></li>
                     <li><a href="#contact" onclick="selectOption()">Contact</a></li>
-                    <!--draw fan icon -->
-                    <img src="images/moon.png" id="icon">
                     <!-------Esta es la X de la BARRA VERTICAL---------->
                     <!---<i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>--->
+                    <!--draw fan icon -->
+                    <img src="images/moon.png" id="icon">
                 </div>
-                </nav>
+            </nav>
         </header>
         <div class="img_back">
             <img src="images/bgpd_000.jpg" id="img_back">
-            <div class="back" id="back">
-                <div class="content">
-                    <div class="text">
-                        <h4>Hello, I'm</h4>
-                        <h2>Jimmie Herrera</h2>
-                        <span>Project Engineer</span>
-                        <p>
-                            <br>Systems engineer with more than 20 years of experience in technical and infrastructure
-                            areas
-                            linked to operations management and technology resource management teams. I have worked in
-                            IT
-                            and
-                            networks, coordination in operational areas and software training. In addition, I have
-                            worked in
-                            design of technological solutions in the area of Smart Home and Smart Building automation,
-                            certification and analysis of networks, channeling, structured cabling and fiber optics.
-                            Ensuring
-                            IoT interconnections.</br>
-
-                            <br>As Project Engineer and Estimator, I have led automation projects of electronic security
-                            equipment, including infrastructure, design and migration of installed bases, service to
-                            suppliers
-                            and monitoring of projects in various sectors, such as industry, banks, newspapers, hotels,
-                            hospitals, universities and schools, data center and private homes.</br>
-
-                            <br>In software design, I have collaborated with programmers for HMIWEB type projects taking
-                            digital
-                            signals to interact with equipment in the field and display their status in operator
-                            consoles,
-                            such
-                            as HVAC, Fire Panels, CCTV and Access Control.</br>
-                        </p>
-                    </div>
-                    <div class="social">
-                        <a href="https://linkedin.com/in/jimmieherrera" target="_blank"><i
-                                class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://twitter.com/jimrhm" target="_blank"><i
-                                class="fa-brands fa-square-x-twitter"></i></a>
-                        <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-                        <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="https://www.instagram.com" target="_blank"><i
-                                class="fa-brands fa-square-instagram"></i></a>
-                    </div>
-                </div>
+            <div id="cen-text">
+                <div class="cen-jhven"></div>
+                <h1>Hi, I'm <span>Jimmie Herrera</span><br><span>Project Engineer</span></h1>
             </div>
         </div>
+        <!----about-->
+        <div class="about" id="about">
+            <div class="content">
+                <h4>About Me</h4>
+                <p>
+                    <br>Systems engineer with more than 20 years of experience in technical and infrastructure
+                    areas linked to operations management and technology resource management teams. I have worked in
+                    IT and networks, coordination in operational areas and software training. In addition, I have
+                    worked in design of technological solutions in the area of Smart Home and Smart Building automation,
+                    certification and analysis of networks, channeling, structured cabling and fiber optics.
+                    Ensuring IoT interconnections.</br>
+
+                    <br>As Project Engineer and Estimator, I have led automation projects of electronic security
+                    equipment, including infrastructure, design and migration of installed bases, service to
+                    suppliers and monitoring of projects in various sectors, such as industry, banks, newspapers, hotels,
+                    hospitals, universities and schools, data center and private homes.</br>
+
+                    <br>In software design, I have collaborated with programmers for HMIWEB type projects taking
+                    digital signals to interact with equipment in the field and display their status in operator
+                    consoles, such as HVAC, Fire Panels, CCTV and Access Control.</br>
+                </p>
+            </div>
+            <!----contact-->
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fa-solid fa-paper-plane"></i> jhengineeringp@gmail.com</p>
+                            <div class="social-icons">
+                                <!----Just here link to social-------------->
+                                <a href="https://linkedin.com/in/jimmieherrera" target="_blank"><i
+                                        class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://twitter.com/jimrhm" target="_blank"><i
+                                        class="fa-brands fa-square-x-twitter"></i></a>
+                                <a href="https://www.youtube.com" target="_blank"><i
+                                        class="fa-brands fa-youtube"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=61554891763345" target="_blank"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/jimrogerherrera/" target="_blank"><i
+                                        class="fa-brands fa-square-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="arrowup">
+                            <div class="footer-icon-top">
+                                <a href="#header"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                            </div>
+                        </div>
+                        <div id="thanks">
+                            <a href=" ">Acknowledgements</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>Under Construction <i class="fa-solid fa-person-digging"></i></p>
+                    <p>copyright © JHEngineering <i class="fa-brands fa-connectdevelop"></i> Environment of Development
+                    </p>
+                </div>
+            </div>
     </section>
     <script src="src/bnw.js"></script>
 </body>
-
 </html>
