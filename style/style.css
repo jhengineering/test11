@@ -139,7 +139,7 @@ body.dark-mode {
     transform: translateY(-5px);
 }
 
-.back {
+#back {
     background-image: url('images/bgpd_000.jpg');
  }
 
