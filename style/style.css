@@ -277,13 +277,13 @@ body.dark-mode {
     .img_back img {
         position: absolute;
         display: flex;
-        margin-top: -40em;
+        margin-top: -38em;
         width: 100%;
         height: auto;
     }
 
     #cen-text {
-        margin-top: -15em;
+        margin-top: -14em;
         margin-left: 80px;
         font-size: 15px;
 
