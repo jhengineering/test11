@@ -277,7 +277,7 @@ body.dark-mode {
 .img_back img {
     position: absolute;
     display: flex;
-    margin-top: -36em;
+    margin-top: -35em;
     width: 100%;
     height: auto;
 }
@@ -308,7 +308,7 @@ body.dark-mode {
 }
 
 .about h4 {
-    margin-top: -29em;
+    margin-top: -26em;
     display: flex;
     font-size: 20px;
     font-weight: bold;
