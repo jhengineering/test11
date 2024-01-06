@@ -277,7 +277,7 @@ body.dark-mode {
 .img_back img {
     position: absolute;
     display: flex;
-    margin-top: -41em;
+    margin-top: -30em;
     width: 100%;
     height: auto;
 }
