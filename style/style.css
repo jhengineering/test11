@@ -283,7 +283,7 @@ body.dark-mode {
     }
 
     #cen-text {
-        margin-top: -18em;
+        margin-top: -15em;
         margin-left: 80px;
         font-size: 15px;
 
@@ -309,7 +309,7 @@ body.dark-mode {
     }
 
     .about h4 {
-        margin-top: -35em;
+        margin-top: -33em;
         display: flex;
         font-size: 20px;
         font-weight: bold;
@@ -360,9 +360,23 @@ body.dark-mode {
         height: 25px;
         cursor: pointer;
     }
+    
+    .img_back img {
+        position: absolute;
+        display: flex;
+        margin-top: -40em;
+        width: 100%;
+        height: auto;
+    }
 
+    #cen-text {
+        margin-top: -15em;
+        margin-left: 80px;
+        font-size: 15px;
+
+    }
     .about h4 {
-        margin-top: -37em;
+        margin-top: -33em;
         display: flex;
         font-size: 20px;
         font-weight: bold;
