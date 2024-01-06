@@ -274,139 +274,122 @@ body.dark-mode {
 /*media*/
 @media only screen and (max-width: 600px) {
 
-    .img_back img {
-        position: absolute;
-        display: flex;
-        margin-top: -38em;
-        width: 100%;
-        height: auto;
-    }
+.img_back img {
+    position: absolute;
+    display: flex;
+    margin-top: -38em;
+    width: 100%;
+    height: auto;
+}
+    
+#cen-text {
+    margin-top: -14em;
+    margin-left: 80px;
+    font-size: 15px;
+}
 
-    #cen-text {
-        margin-top: -14em;
-        margin-left: 80px;
-        font-size: 15px;
+.logo {
+    margin-top: 16%;
+    margin-left: 55%;
+    font-size: 15px;
+}
 
-    }
+#icon {
+    margin-top: 1%;
+    margin-left: 32%;
+    height: 25px;
+    cursor: pointer;
+}
 
-    .logo {
-        margin-top: 16%;
-        margin-left: 55%;
-        font-size: 15px;
-    }
+.nav-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
-    #icon {
-        margin-top: 1%;
-        margin-left: 32%;
-        height: 25px;
-        cursor: pointer;
-    }
+.about h4 {
+    margin-top: -30em;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
 
-    .nav-links {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-    }
+.content p {
+    display: flex;
+    text-align: justify;
+    font-size: 14px;
+}
 
-    .about h4 {
-        margin-top: -30em;
-        display: flex;
-        font-size: 20px;
-        font-weight: bold;
-    }
+/*arrowup */
+.footer-icon-top {
+    display: flex;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 1.7cm;
+    bottom: -20em;
+    margin-right: 5%;
+}
 
-    .content p {
-        display: flex;
-        text-align: justify;
-        font-size: 14px;
-    }
-
-    /*arrowup */
-    .footer-icon-top {
-        display: flex;
-        height: 20px;
-        cursor: pointer;
-        position: absolute;
-        right: 1.7cm;
-        bottom: -20em;
-        margin-right: 5%;
-    }
-
-    /*thanks*/
-    #thanks {
-        display: flex;
-        text-align: center;
-        align-items: center;
-        bottom: 10em;
-        margin-left: 30%;
-        font-size: 12px;
-    }
+/*thanks*/
+#thanks {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    bottom: 10em;
+    margin-left: 30%;
+    font-size: 12px;
+}
 
 }
 
 /*Hon X9 and OS SE */
 @media only screen and (max-width: 360px) {
+.logo {
+    margin-top: 18%;
+    margin-left: 63%;
+    font-size: 15px;
+}
 
+#icon {
+    margin-top: 1%;
+    margin-left: 80%;
+    height: 25px;
+    cursor: pointer;
+}
 
-    .logo {
-        margin-top: 18%;
-        margin-left: 63%;
-        font-size: 15px;
-    }
+.about h4 {
+    margin-top: -37em;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
 
-    #icon {
-        margin-top: 1%;
-        margin-left: 80%;
-        height: 25px;
-        cursor: pointer;
-    }
-    
-    .img_back img {
-        position: absolute;
-        display: flex;
-        margin-top: -40em;
-        width: 100%;
-        height: auto;
-    }
+.content p {
+    display: flex;
+    text-align: justify;
+    font-size: 14px;
+}
 
-    #cen-text {
-        margin-top: -15em;
-        margin-left: 80px;
-        font-size: 15px;
+/*arrowup */
+.footer-icon-top {
+    display: flex;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 1.7cm;
+    bottom: -13em;
+    margin-right: 5%;
+}
 
-    }
-    .about h4 {
-        margin-top: -33em;
-        display: flex;
-        font-size: 20px;
-        font-weight: bold;
-    }
-
-    .content p {
-        display: flex;
-        text-align: justify;
-        font-size: 14px;
-    }
-
-    /*arrowup */
-    .footer-icon-top {
-        display: flex;
-        height: 20px;
-        cursor: pointer;
-        position: absolute;
-        right: 1.7cm;
-        bottom: -13em;
-        margin-right: 5%;
-    }
-
-    /*thanks*/
-    #thanks {
-        display: flex;
-        text-align: center;
-        align-items: center;
-        bottom: 10em;
-        margin-left: 30%;
-        font-size: 12px;
-    }
+/*thanks*/
+#thanks {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    bottom: 10em;
+    margin-left: 30%;
+    font-size: 12px;
+}
 
 }
